@@ -14,6 +14,7 @@
 		0717759E14ED380400CAB8F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0717759C14ED380400CAB8F4 /* MainMenu.xib */; };
 		071775A114ED380400CAB8F4 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 071775A014ED380400CAB8F4 /* rb_main.rb */; };
 		071775A314ED380400CAB8F4 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 071775A214ED380400CAB8F4 /* AppDelegate.rb */; };
+		071775AD14ED385300CAB8F4 /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 071775AC14ED385300CAB8F4 /* Controller.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +31,14 @@
 		0717758714ED380400CAB8F4 /* MacRubyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacRubyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0717758B14ED380400CAB8F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0717758D14ED380400CAB8F4 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
-		0717759414ED380400CAB8F4 /* MacRubyApp-Info.plist */ = {isa = PBXFileReference; path = "MacRubyApp-Info.plist"; sourceTree = "<group>"; };
+		0717759414ED380400CAB8F4 /* MacRubyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacRubyApp-Info.plist"; sourceTree = "<group>"; };
 		0717759614ED380400CAB8F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0717759814ED380400CAB8F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0717759A14ED380400CAB8F4 /* MacRubyApp-Prefix.pch */ = {isa = PBXFileReference; path = "MacRubyApp-Prefix.pch"; sourceTree = "<group>"; };
+		0717759A14ED380400CAB8F4 /* MacRubyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacRubyApp-Prefix.pch"; sourceTree = "<group>"; };
 		0717759D14ED380400CAB8F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		071775A014ED380400CAB8F4 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		071775A214ED380400CAB8F4 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		071775AC14ED385300CAB8F4 /* Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Controller.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				071775A214ED380400CAB8F4 /* AppDelegate.rb */,
+				071775AC14ED385300CAB8F4 /* Controller.rb */,
 				0717759B14ED380400CAB8F4 /* Resources */,
 				0717759F14ED380400CAB8F4 /* Other Sources */,
 				0717759314ED380400CAB8F4 /* Supporting Files */,
@@ -189,6 +192,7 @@
 				0717759E14ED380400CAB8F4 /* MainMenu.xib in Resources */,
 				071775A114ED380400CAB8F4 /* rb_main.rb in Resources */,
 				071775A314ED380400CAB8F4 /* AppDelegate.rb in Resources */,
+				071775AD14ED385300CAB8F4 /* Controller.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +261,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -277,6 +282,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
